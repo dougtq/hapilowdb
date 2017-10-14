@@ -1,0 +1,21 @@
+{
+  "name": "curso_hapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Douglas Alves <douglas.expalves@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node_modules/.bin/nodemon index.js",
+    "prod": "node index.js"
+  },
+  "dependencies": {
+    "hapi": "^16.6.2",
+    "hapi-router": "^3.5.0",
+    "joi": "^11.4.0",
+    "jsonwebtoken": "^8.1.0",
+    "lowdb": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
